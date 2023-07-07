@@ -5,6 +5,7 @@
     "screen": "",
     "title": "OhMyFood",
     "gitHubLink": "https://github.com/Dam-C/OC_Projet_04",
+    "liveSite": "https://dam-c.github.io/OC_Projet_04/",
     "text": "L'un des premiers projets sur lesquels j'ai pu traaviller dans la formationi. Une fois les bases acquises, l'objectif était de travailler sur l'aspect responsive du site ainsi que les animations CSS à implanter.",
     "technos": [
       { "name": "HTML5", "technoIcon": "/icons/icon-html.png" },
@@ -18,6 +19,7 @@
     "screen": "",
     "title": "Sophie Bluel",
     "gitHubLink": "https://github.com/Dam-C/OC_Projet_06",
+    "liveSite": false,
     "text": "Pour découvrir Javascript j'ai réalisé ce site en (Vanilla) Javascript. L'ensemble des fonctionnalités du site (même sommaires) ont été réalisé sans librairie ouo framework. L'utilisation de swagger a également nécessaire pour la réalisation de ce prjet.",
     "technos": [
       { "name": "HTML5", "technoIcon": "/icons/icon-html.png" },
@@ -31,6 +33,7 @@
     "screen": "",
     "title": "Kasa",
     "gitHubLink": "https://github.com/Dam-C/OC_P08",
+    "liveSite": false,
     "text": "Pour découvrir React et React Routerj'ai réalisé un site de location immobilière reprenant la même approche qu'Air BnB. L'objectif était ici de se familiraiser avec la logique React ainsi que le routing via React Router.",
     "technos": [
       { "name": "HTML5", "technoIcon": "/icons/icon-html.png" },
@@ -47,6 +50,7 @@
     "screen": "",
     "title": "Argent Bank",
     "gitHubLink": "https://github.com/Dam-C/ArgentBank-website",
+    "liveSite": false,
     "text": "Le dernier Projet de la formation. L'objectif était ici de réaliser l'entierté du site à partir de maquette et d'y combiner l'ensemble de ce qu' l'on a appris en formation (HTML, CSS,React, React Router) et d'y implémenter un manager d'état global, Redux. J'ai également réaliser des routes pour des call API via Swagger et la documentation associée.",
     "technos": [
       { "name": "HTML5", "technoIcon": "/icons/icon-html.png" },

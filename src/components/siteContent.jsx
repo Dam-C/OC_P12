@@ -3,8 +3,8 @@ import { Intro, ProjectsList, Technos, Contact } from "./_compsIndex";
 const SiteContent = () => {
   return (
     <main className="site-content">
-      <Intro />
       <ProjectsList />
+      <Intro />
       <Technos />
       <Contact />
     </main>

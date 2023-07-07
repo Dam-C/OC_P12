@@ -6,7 +6,7 @@ const ProjectsList = () => {
 
   return (
     <section className="site-section site-section__projects">
-      <h3 className="site-section__title projects-list__title">\ PORTFOLIO</h3>
+      <h3 className="site-section__title projects-list__title">\ PROJETS</h3>
       {projects.map((project) => {
         return (
           <div key={project.id} className="project">

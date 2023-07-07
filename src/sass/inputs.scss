@@ -149,74 +149,78 @@ table {
 }
 
 .main-nav {
-  z-index: -999;
+  position: fixed;
+  top: 0;
+  z-index: 999;
   width: 100%;
-  height: 98vh;
+  height: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: antiquewhite;
-  border-bottom: 2vh solid black;
-  overflow: hidden;
+  border-bottom: 4px solid black;
   &__wrapper {
-    position: fixed;
+    position: absolute;
     width: 85%;
-    height: 75px;
+
     display: flex;
     justify-content: space-between;
   }
   &__left {
     color: $main-text-color;
     h1 {
-      font-size: 3rem;
-      margin-bottom: 7px;
-    }
-    p {
       font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+    h3 {
+      font-size: 0.8rem;
+      font-weight: 300;
     }
   }
   &__right {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
     text-decoration: none;
     font-weight: 500;
+    gap: 15px;
     color: $sub-text-color;
   }
 }
 
 .site-content {
-  z-index: 999;
-  position: relative;
+  z-index: -999;
   width: 80%;
-  margin: auto;
+
+  margin: 100px auto 0 auto;
   background-color: #fff;
 }
 
 .site-section {
   border-top: 1px solid black;
+  &__intro {
+    border-top: none;
+  }
   &__title {
     font-size: 3rem;
     font-family: "Noticia Text";
     font-style: italic;
+    padding: 10px 0 20px 0;
   }
 }
 
 .about {
   &-title {
+    font-size: 3rem;
+    font-family: "Noticia Text";
+    font-style: italic;
     padding: 50px 0 20px 0;
     margin-bottom: 10px;
   }
   &-text {
     margin-bottom: 30px;
-  }
-}
-
-.projects-list {
-  &__title {
-    padding: 10px 0 20px 0;
   }
 }
 
@@ -229,6 +233,7 @@ table {
 
 .project {
   &-header {
+    cursor: pointer;
     &:hover .project-header__would-you {
       opacity: 1;
       transition: opacity;
@@ -248,10 +253,9 @@ table {
     margin-bottom: 10px;
     &-title-wrap {
       display: flex;
-      gap: 10px;
+      gap: 15px;
     }
     &__title {
-      cursor: pointer;
       font-family: "Noticia Text";
       font-size: 5rem;
       transition: all 200ms ease-in-out;
@@ -264,10 +268,10 @@ table {
       color: rgb(195, 176, 33);
       font-family: "Noticia Text";
       font-style: italic;
-      font-size: 1rem;
+      font-size: 0.9rem;
       display: flex;
       align-items: flex-end;
-      padding-bottom: 10px;
+      padding-bottom: 5px;
       opacity: 0;
     }
   }
@@ -283,48 +287,44 @@ table {
     display: flex;
     gap: 30px;
 
-    &__github-link {
-      display: block;
+    &__text {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    &__desc {
+      flex: 1;
+      font-weight: 400;
+      line-height: 1.4;
+    }
+    &__links {
+      padding: 8px 0;
+    }
+    &__link {
       text-decoration: none;
       width: 84px;
       border: 1px solid black;
       border-radius: 19px;
       color: #000;
+      font-size: 0.8rem;
       font-weight: 400;
       padding: 7px 15px 7px 15px;
-      margin: 5px 0 20px 0;
 
       transition: all 200ms ease-in-out;
+      margin-right: 10px;
       &:hover {
         transition: all 200ms ease-in-out;
         background-color: #000;
         color: #fff;
       }
     }
-    &__text {
-      flex: 1;
-    }
-    &__desc {
-      font-weight: 400;
-      line-height: 1.4;
-    }
-    &__screen {
-      display: block;
-      flex: 2;
-      height: 280px;
-      background-color: #fff;
-      border: 1px solid black;
-    }
+
     &__technos {
-      flex: 0.5;
       display: flex;
       flex-direction: column;
-
-      &-title {
-        margin-bottom: 15px;
-        font-weight: 300;
-        text-align: center;
-      }
+      gap: 10px;
       &-list {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(0, 40px));
@@ -334,6 +334,7 @@ table {
         max-width: 100%;
       }
     }
+
     &__techno {
       max-width: 40px;
       &-icon {
@@ -344,6 +345,13 @@ table {
       &-name {
         font-size: 0.8rem;
       }
+    }
+    &__screen {
+      display: block;
+      flex: 2;
+      height: 280px;
+      background-color: #fff;
+      border: 1px solid black;
     }
   }
 }
@@ -356,5 +364,37 @@ table {
   }
   &-form {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__label {
+      margin-bottom: 10px;
+    }
+    &__input {
+      width: 300px;
+      margin-bottom: 10px;
+      border: 1px solid black;
+    }
+    &__btn {
+      cursor: pointer;
+      border: 1px solid black;
+      border-radius: 20px;
+      background-color: #fff;
+      padding: 10px 15px;
+      &:hover {
+        background-color: #000;
+        color: #fff;
+      }
+    }
   }
+}
+
+.footer {
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
 }

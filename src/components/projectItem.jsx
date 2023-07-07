@@ -42,33 +42,45 @@ const ProjectItem = (props) => {
       >
         <div className="project-infos">
           <div className="project-infos__text">
-            <a
-              className="project-infos__github-link"
-              href={project?.gitHubLink}
-              target="blank"
-            >
-              lien github
-            </a>
             <p className="project-infos__desc">{project?.text}</p>
-          </div>
-          <div className="project-infos__screen">{project?.screen}</div>
-          <div className="project-infos__technos">
-            <h4 className="project-infos__technos-title">Made with :</h4>
-            <div className="project-infos__technos-list">
-              {project?.technos.map((tech) => {
-                return (
-                  <div key={tech.name} className="project-infos__techno">
-                    <img
-                      className="project-infos__techno-icon"
-                      src={tech.technoIcon}
-                      alt={tech.name}
-                    />
-                    {/* <p className="project-infos__techno-name">{tech.name}</p> */}
-                  </div>
-                );
-              })}
+            <div className="project-infos__technos">
+              <div className="project-infos__links">
+                <a
+                  className="project-infos__link"
+                  href={project?.gitHubLink}
+                  target="blank"
+                >
+                  github
+                </a>
+                {project?.liveSite ? (
+                  <a
+                    className="project-infos__link"
+                    href={project?.liveSite}
+                    target="blank"
+                  >
+                    site
+                  </a>
+                ) : (
+                  ""
+                )}
+              </div>
+              <div className="project-infos__technos-list">
+                {project?.technos.map((tech) => {
+                  return (
+                    <div key={tech.name} className="project-infos__techno">
+                      <img
+                        className="project-infos__techno-icon"
+                        src={tech.technoIcon}
+                        alt={tech.name}
+                      />
+                      {/* <p className="project-infos__techno-name">{tech.name}</p> */}
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           </div>
+          <div className="project-infos__screen">{project?.screen}</div>
         </div>
       </div>
     </article>

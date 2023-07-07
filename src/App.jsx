@@ -4,7 +4,7 @@ import { MainNav, SiteContent, Footer } from "./components/_compsIndex";
 function App() {
   return (
     <>
-      <div className="bg-gradient">
+      <div>
         <MainNav />
         <SiteContent />
         <Footer />

@@ -1,0 +1,61 @@
+[
+  {
+    "id": "p001",
+    "blut": "4f 68 4d 79 46 6f 6f 64",
+    "screen": "",
+    "title": "OhMyFood",
+    "gitHubLink": "https://github.com/Dam-C/OC_Projet_04",
+    "text": "L'un des premiers projets sur lesquels j'ai pu traaviller dans la formationi. Une fois les bases acquises, l'objectif était de travailler sur l'aspect responsive du site ainsi que les animations CSS à implanter.",
+    "technos": [
+      { "name": "HTML5", "technoIcon": "/icons/icon-html.png" },
+      { "name": "CSS3", "technoIcon": "/icons/icon-css.png" },
+      { "name": "SASS", "technoIcon": "/icons/icon-sass.png" }
+    ]
+  },
+  {
+    "id": "p002",
+    "blut": "53 6f 70 68 69 65 20 42 6c 75 65 6c",
+    "screen": "",
+    "title": "Sophie Bluel",
+    "gitHubLink": "https://github.com/Dam-C/OC_Projet_06",
+    "text": "Pour découvrir Javascript j'ai réalisé ce site en (Vanilla) Javascript. L'ensemble des fonctionnalités du site (même sommaires) ont été réalisé sans librairie ouo framework. L'utilisation de swagger a également nécessaire pour la réalisation de ce prjet.",
+    "technos": [
+      { "name": "HTML5", "technoIcon": "/icons/icon-html.png" },
+      { "name": "CSS3", "technoIcon": "/icons/icon-css.png" },
+      { "name": "Javascript", "technoIcon": "/icons/icon-js.png" }
+    ]
+  },
+  {
+    "id": "p003",
+    "blut": "6b 61 73 61",
+    "screen": "",
+    "title": "Kasa",
+    "gitHubLink": "https://github.com/Dam-C/OC_P08",
+    "text": "Pour découvrir React et React Routerj'ai réalisé un site de location immobilière reprenant la même approche qu'Air BnB. L'objectif était ici de se familiraiser avec la logique React ainsi que le routing via React Router.",
+    "technos": [
+      { "name": "HTML5", "technoIcon": "/icons/icon-html.png" },
+      { "name": "CSS3", "technoIcon": "/icons/icon-css.png" },
+      { "name": "Javascript", "technoIcon": "/icons/icon-js.png" },
+      { "name": "React", "technoIcon": "/icons/icon-react.png" },
+      { "name": "Vite", "technoIcon": "/icons/icon-vite.png" },
+      { "name": "React-Router", "technoIcon": "/icons/icon-reactrouter.png" }
+    ]
+  },
+  {
+    "id": "p004",
+    "blut": "41 72 67 65 6e 74 20 42 61 6e 6b ",
+    "screen": "",
+    "title": "Argent Bank",
+    "gitHubLink": "https://github.com/Dam-C/ArgentBank-website",
+    "text": "Le dernier Projet de la formation. L'objectif était ici de réaliser l'entierté du site à partir de maquette et d'y combiner l'ensemble de ce qu' l'on a appris en formation (HTML, CSS,React, React Router) et d'y implémenter un manager d'état global, Redux. J'ai également réaliser des routes pour des call API via Swagger et la documentation associée.",
+    "technos": [
+      { "name": "HTML5", "technoIcon": "/icons/icon-html.png" },
+      { "name": "CSS3", "technoIcon": "/icons/icon-css.png" },
+      { "name": "Javascript", "technoIcon": "/icons/icon-js.png" },
+      { "name": "React", "technoIcon": "/icons/icon-react.png" },
+      { "name": "Vite", "technoIcon": "/icons/icon-vite.png" },
+      { "name": "React-Router", "technoIcon": "/icons/icon-reactrouter.png" },
+      { "name": "Redux", "technoIcon": "/icons/icon-redux.png" }
+    ]
+  }
+]

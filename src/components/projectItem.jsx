@@ -41,6 +41,9 @@ const ProjectItem = (props) => {
         }
       >
         <div className="project-infos">
+          <div className="project-infos__screen">
+            <img className="project-infos__screen-img" src={project?.screen} />
+          </div>
           <div className="project-infos__text">
             <p className="project-infos__desc">{project?.text}</p>
             <div className="project-infos__technos">
@@ -80,7 +83,6 @@ const ProjectItem = (props) => {
               </div>
             </div>
           </div>
-          <div className="project-infos__screen">{project?.screen}</div>
         </div>
       </div>
     </article>

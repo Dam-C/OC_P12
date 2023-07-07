@@ -5,7 +5,7 @@ const ProjectsList = () => {
   const projects = content;
 
   return (
-    <section className="site-section site-section__projects">
+    <section id="#projects" className="site-section site-section__projects">
       <h3 className="site-section__title projects-list__title">\ PROJETS</h3>
       {projects.map((project) => {
         return (

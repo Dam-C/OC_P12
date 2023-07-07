@@ -1,5 +1,6 @@
 $main-text-color: #000;
 $sub-text-color: rgb(76, 68, 72);
+
 $main-text-color: #000;
 
 /*
@@ -17,6 +18,42 @@ font-family: 'Noticia Text', serif;
 font-family: 'Work Sans', sans-serif;
 
 */
+@keyframes anim-block-1 {
+  0% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(0);
+  }
+}
+.anim {
+  &-wrapper {
+    display: none;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    height: 100vh;
+    width: 90%;
+    background-color: #fff;
+  }
+  &-block {
+    height: 200px;
+  }
+}
+.block {
+  &-1 {
+    // z-index: 2;
+    background-color: aqua;
+    transform-origin: top;
+    animation: anim-block-1 500ms ease-out forwards;
+  }
+  &-2 {
+    z-index: 2;
+    background-color: rgb(17, 159, 17);
+    transform-origin: top;
+    animation: anim-block-1 500ms 300ms ease-out forwards;
+  }
+}
 
 html,
 body,
@@ -151,14 +188,14 @@ table {
 .main-nav {
   position: fixed;
   top: 0;
-  z-index: 999;
+  z-index: 0;
   width: 100%;
   height: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: antiquewhite;
+  background-color: rgb(243, 233, 233);
   border-bottom: 4px solid black;
   &__wrapper {
     position: absolute;
@@ -183,16 +220,19 @@ table {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    text-decoration: none;
     font-weight: 500;
     gap: 15px;
-    color: $sub-text-color;
+    & a {
+      text-decoration: none;
+      color: $sub-text-color;
+    }
   }
 }
 
 .site-content {
   z-index: -999;
   width: 80%;
+  max-width: 1200px;
 
   margin: 100px auto 0 auto;
   background-color: #fff;
@@ -201,7 +241,6 @@ table {
 .site-section {
   border-top: 1px solid black;
   &__intro {
-    border-top: none;
   }
   &__title {
     font-size: 3rem;
@@ -216,7 +255,7 @@ table {
     font-size: 3rem;
     font-family: "Noticia Text";
     font-style: italic;
-    padding: 50px 0 20px 0;
+    padding: 10px 0 20px 0;
     margin-bottom: 10px;
   }
   &-text {
@@ -289,15 +328,29 @@ table {
 
     &__text {
       flex: 1;
+      min-width: 250px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       gap: 10px;
     }
     &__desc {
-      flex: 1;
       font-weight: 400;
       line-height: 1.4;
+    }
+    &__technos {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 10px;
+      flex: 1;
+      &-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(0, 40px));
+        grid-gap: 8px;
+
+        max-width: 100%;
+      }
     }
     &__links {
       padding: 8px 0;
@@ -321,25 +374,11 @@ table {
       }
     }
 
-    &__technos {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      &-list {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(0, 40px));
-        grid-gap: 8px;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 100%;
-      }
-    }
-
     &__techno {
       max-width: 40px;
       &-icon {
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
         object-fit: contain;
       }
       &-name {
@@ -347,11 +386,21 @@ table {
       }
     }
     &__screen {
-      display: block;
       flex: 2;
-      height: 280px;
+
+      height: 415px;
+      display: flex;
+      align-items: flex-start;
+      overflow: hidden;
       background-color: #fff;
       border: 1px solid black;
+      border-radius: 5px;
+      margin-bottom: 1px;
+      &-img {
+        object-fit: cover;
+        min-height: 100%;
+        width: 100%;
+      }
     }
   }
 }
@@ -372,9 +421,18 @@ table {
       margin-bottom: 10px;
     }
     &__input {
-      width: 300px;
+      width: 400px;
       margin-bottom: 10px;
       border: 1px solid black;
+      border-radius: 5px;
+      padding: 10px;
+      font-size: 1.2rem;
+      &-sender {
+        height: 30px;
+      }
+      &-text {
+        height: 100px;
+      }
     }
     &__btn {
       cursor: pointer;

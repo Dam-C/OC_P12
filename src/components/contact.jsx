@@ -26,7 +26,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="site-section">
+    <section id="contact" className="site-section">
       <h3 className="site-section__title">\ CONTACT</h3>
       <div className="contact-wrapper">
         <form onSubmit={handleSubmit} className="contact-form">
@@ -38,7 +38,7 @@ const Contact = () => {
             type="text"
             id="sender"
             name="sender"
-            placeholder="Nom"
+            placeholder=""
             value={formData.sender}
             onChange={handleChange}
             required
@@ -51,7 +51,7 @@ const Contact = () => {
             type="text"
             id="message"
             name="message"
-            placeholder="message"
+            placeholder=""
             onChange={handleChange}
           ></textarea>
           <button className="contact-form__btn" type="submit">

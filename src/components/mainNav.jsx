@@ -8,16 +8,13 @@ const MainNav = () => {
         </div>
         <ul className="main-nav__right">
           <li>
-            <a>A propos</a>
+            <a href="#about">A propos</a>
           </li>
           <li>
-            <a>Projets</a>
+            <a href="#projects">Projets</a>
           </li>
           <li>
-            <a>Technos</a>
-          </li>
-          <li>
-            <a>Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>

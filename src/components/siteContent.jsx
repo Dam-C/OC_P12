@@ -1,10 +1,10 @@
-import { Intro, ProjectsList, Contact } from "./_compsIndex";
+import { About, ProjectsList, Contact } from "./_compsIndex";
 
 const SiteContent = () => {
   return (
     <main className="site-content">
       <ProjectsList />
-      <Intro />
+      <About />
       <Contact />
     </main>
   );

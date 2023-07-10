@@ -195,8 +195,8 @@ table {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(243, 233, 233);
-  border-bottom: 4px solid black;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 2px solid black;
   &__wrapper {
     position: absolute;
     width: 85%;
@@ -240,26 +240,24 @@ table {
 
 .site-section {
   border-top: 1px solid black;
-  &__intro {
-  }
   &__title {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-family: "Noticia Text";
     font-style: italic;
     padding: 10px 0 20px 0;
+    color: rgb(101, 95, 95);
   }
 }
 
 .about {
   &-title {
-    font-size: 3rem;
-    font-family: "Noticia Text";
-    font-style: italic;
     padding: 10px 0 20px 0;
     margin-bottom: 10px;
   }
   &-text {
+    font-style: italic;
     margin-bottom: 30px;
+    line-height: 1.3;
   }
 }
 
@@ -432,6 +430,7 @@ table {
       }
       &-text {
         height: 100px;
+        resize: none;
       }
     }
     &__btn {
@@ -449,10 +448,46 @@ table {
 }
 
 .footer {
-  border-top: 1px solid black;
+  border-top: 2px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 60px;
   background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 750px) {
+  .main-nav__right {
+    font-size: 0.8rem;
+  }
+
+  .site-content {
+    width: auto;
+    margin: 100px 10px 0 10px;
+  }
+  .project-infos {
+    flex-direction: column;
+  }
+  .project {
+    &-item {
+      padding: 10px 0 10px 0;
+    }
+    &-header {
+      gap: 10px;
+      &__title {
+        font-size: 15vw;
+      }
+    }
+    &-infos {
+      margin-top: 10px;
+
+      gap: 10px;
+    }
+  }
+  .contact-form {
+    width: 90%;
+  }
+  .contact-form__input {
+    width: 100%;
+  }
 }

@@ -149,6 +149,34 @@ table {
   height: 100%;
 }
 
+.anim {
+  &-wrapper {
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  &__top {
+    font-size: 3rem;
+    color: #fff;
+  }
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100px);
+  transition: all 1s;
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  transition: all 1s;
+}
+
 .main-nav {
   position: fixed;
   top: 0;
@@ -159,7 +187,7 @@ table {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(50, 50, 50);
   border-bottom: 2px solid black;
   &__wrapper {
     position: absolute;
@@ -169,7 +197,8 @@ table {
     justify-content: space-between;
   }
   &__left {
-    color: $main-text-color;
+    color: #fff;
+
     h1 {
       font-size: 1rem;
       font-weight: 600;
@@ -187,8 +216,9 @@ table {
     font-weight: 500;
     gap: 15px;
     & a {
+      font-size: 0.9rem;
+      color: #fff;
       text-decoration: none;
-      color: $sub-text-color;
     }
   }
 }

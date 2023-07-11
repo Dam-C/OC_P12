@@ -1,7 +1,17 @@
+import { observerIntersection } from "../utils/scrollAnim";
+import { useRef, useEffect } from "react";
+
 const About = () => {
+  const targetRef = useRef(null);
+  useEffect(() => {
+    return observerIntersection(targetRef);
+  }, []);
+
   return (
-    <section id="#about" className="site-section ">
-      <h2 className="site-section__title about-title">\ A PROPOS</h2>
+    <section ref={targetRef} className="hidden site-section ">
+      <h2 id="about" className="site-section__title about-title">
+        \ A PROPOS
+      </h2>
       <div className="about-content-wrapper">
         <p className="about-text">
           Passionné par la création et les nouvelles technologies, j'ai sauté le

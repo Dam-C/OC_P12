@@ -1,6 +1,12 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
+import { observerIntersection } from "../utils/scrollAnim";
 
 const Contact = () => {
+  const targetRef = useRef(null);
+  useEffect(() => {
+    return observerIntersection(targetRef);
+  }, []);
+
   const [formData, setFormData] = useState({
     sender: "",
     message: "",
@@ -26,7 +32,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="site-section">
+    <section ref={targetRef} id="contact" className="hidden site-section">
       <h3 className="site-section__title">\ CONTACT</h3>
       <div className="contact-wrapper">
         <form onSubmit={handleSubmit} className="contact-form">

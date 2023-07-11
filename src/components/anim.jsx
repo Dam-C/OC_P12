@@ -1,15 +1,18 @@
+import { observerIntersection } from "../utils/scrollAnim";
+import { useRef, useEffect } from "react";
+
 const Anim = () => {
+  const targetRef = useRef(null);
+  useEffect(() => {
+    return observerIntersection(targetRef);
+  }, []);
+
   return (
-    <div className="anim-wrapper">
-      <div className="anim-block block-1"></div>
-      <div className="anim-block block-2"></div>
-      <div className="anim-block block-3"></div>
-      <div className="anim-block block-4"></div>
-      <div className="anim-block block-5"></div>
-      <div className="anim-block block-6"></div>
-      <div className="anim-block block-7"></div>
-      <div className="anim-block block-8"></div>
-    </div>
+    <section className="anim-wrapper">
+      <p ref={targetRef} className="hidden anim__top">
+        HELLOW
+      </p>
+    </section>
   );
 };
 

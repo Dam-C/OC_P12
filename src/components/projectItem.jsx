@@ -1,8 +1,15 @@
 import { PropTypes } from "prop-types";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
+import { observerIntersection } from "../utils/scrollAnim";
 
 const ProjectItem = (props) => {
   const { project } = props;
+
+  const targetRef = useRef(null);
+  useEffect(() => {
+    return observerIntersection(targetRef);
+  }, []);
+
   const [collapseInit, collapseChange] = useState(false);
   const [wouldYou, setWouldYou] = useState(false);
   const parentRef = useRef();
@@ -11,7 +18,7 @@ const ProjectItem = (props) => {
   };
 
   return (
-    <article className="project-item">
+    <article ref={targetRef} className="hidden project-item">
       <div className="project-header" onClick={() => handleHeaderClick()}>
         <div className="project-header__mini-top">
           <p className="project-header__mini-blut">\\ {project?.blut} -</p>

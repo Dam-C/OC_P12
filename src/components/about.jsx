@@ -25,12 +25,12 @@ const About = () => {
           <h4 className="about-formation__title">FORMATION</h4>
           <p className="about-formation__item">
             <span className="about-formation__item--year">2023</span> -
-            Formation Intégrateur Web -{" "}
+            Formation Intégrateur Web -
             <span className="about-formation__item--school">OpenClasrooms</span>
           </p>
           <p className="about-formation__item">
-            <span className="about-formation__item--year">2013</span> -
-            Formation Intégrateur Web -{" "}
+            <span className="about-formation__item--year">2013</span> - Bachelor
+            Graphic Design -
             <span className="about-formation__item--school">
               CFA Com' Bagnolet
             </span>

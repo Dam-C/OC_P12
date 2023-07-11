@@ -12,6 +12,9 @@ const Footer = () => {
             src="./icons/icon-linkedin.png"
           />
         </a>
+        <a href="mailto:damien.charlois@gmail.com">
+          <img className="footer-socials__icon" src="./icons/icon-mail.png" />
+        </a>
       </div>
     </footer>
   );

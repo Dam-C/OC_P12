@@ -21,7 +21,7 @@ const About = () => {
           programmation grace à la création de projets digitaux.
         </p>
 
-        <div className="about-formation">
+        <article className="about-formation">
           <h4 className="about-formation__title">FORMATION</h4>
           <p className="about-formation__item">
             <span className="about-formation__item--year">2023</span> -
@@ -35,7 +35,110 @@ const About = () => {
               CFA Com' Bagnolet
             </span>
           </p>
-        </div>
+        </article>
+        <article className="about-stack">
+          <h4 className="about-stack__title">STACK</h4>
+          <ul className="about-stack__list">
+            <li>
+              <img
+                src="./icons/icon-html.png"
+                className="about-stack__icon"
+                alt="html icon"
+              />
+            </li>
+            <li>
+              <img
+                src="./icons/icon-css.png"
+                className="about-stack__icon"
+                alt="CSS icon"
+              />
+            </li>
+            <li>
+              <img
+                src="./icons/icon-js.png"
+                className="about-stack__icon"
+                alt="javascript"
+              />
+            </li>
+            <li>
+              <img
+                src="./icons/icon-react.png"
+                className="about-stack__icon"
+                alt="react icon"
+              />
+            </li>
+            <li>
+              <img
+                src="./icons/icon-reactrouter.png"
+                className="about-stack__icon"
+                alt="react-router icon"
+              />
+            </li>
+            <li>
+              <img
+                src="./icons/icon-redux.png"
+                className="about-stack__icon"
+                alt="redux icon"
+              />
+            </li>
+            <li>
+              <img
+                src="./icons/icon-sass.png"
+                className="about-stack__icon"
+                alt="sass icon"
+              />
+            </li>
+            <li>
+              <img
+                src="./icons/icon-vite.png"
+                className="about-stack__icon"
+                alt="vite icon"
+              />
+            </li>
+            <li>
+              <img
+                src="./icons/icon-notion.png"
+                className="about-stack__icon"
+                alt="notion icon"
+              />
+            </li>
+            <li>
+              <img
+                src="./icons/icon-git.png"
+                className="about-stack__icon"
+                alt="git icon"
+              />
+            </li>
+            <li>
+              <img
+                src="./icons/icon-github.png"
+                className="about-stack__icon"
+                alt="github icon"
+              />
+            </li>
+            <li>
+              <img
+                src="./icons/icon-notion.png"
+                className="about-stack__icon"
+                alt="notion icon"
+              />
+            </li>
+            <li>
+              <img
+                src="./icons/icon-ps.png"
+                className="about-stack__icon"
+                alt="photoshop icon"
+              />
+            </li>
+            <li>
+              <img
+                src="./icons/icon-illustrator.png"
+                className="about-stack__icon"
+                alt="illustrator icon"
+              />
+            </li>
+          </ul>
+        </article>
       </div>
     </section>
   );

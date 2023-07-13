@@ -29,6 +29,11 @@ const About = () => {
             <span className="about-formation__item--school">OpenClasrooms</span>
           </p>
           <p className="about-formation__item">
+            <span className="about-formation__item--year">2023</span> -
+            Certification JavaScript Algorithms and Data Structures -
+            <span className="about-formation__item--school">FreeCodeCamp</span>
+          </p>
+          <p className="about-formation__item">
             <span className="about-formation__item--year">2013</span> - Bachelor
             Graphic Design -
             <span className="about-formation__item--school">

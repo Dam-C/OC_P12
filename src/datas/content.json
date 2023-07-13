@@ -33,7 +33,7 @@
     "screen": "/imgs/img-kasa.webp",
     "title": "Kasa",
     "gitHubLink": "https://github.com/Dam-C/OC_P08",
-    "liveSite": false,
+    "liveSite": "https://phenomenal-hotteok-0bb431.netlify.app/",
     "text": "Pour découvrir React et React Router, j'ai développé un site de location immobilière reprenant la même approche qu'Air BnB. L'objectif était ici de se familiraiser avec la logique React ainsi que le routing par React Router.",
     "technos": [
       { "name": "HTML5", "technoIcon": "/icons/icon-html.png" },

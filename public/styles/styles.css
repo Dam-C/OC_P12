@@ -151,16 +151,16 @@ table {
 
 .hidden {
   opacity: 0;
-  filter: blur(5px);
-  transform: translateX(-100px);
-  transition: all 1s;
+  filter: blur(1px);
+  transform: translateX(-20px);
+  transition: all 0.3s;
 }
 
 .show {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
-  transition: all 1s;
+  transition: all 0.3s;
 }
 
 .anim-wrapper {
@@ -169,17 +169,18 @@ table {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
 }
 .anim__top {
   font-size: 3rem;
   color: #fff;
   margin-bottom: 15px;
-  transition-delay: 200ms;
+  transition-delay: 150ms;
 }
 .anim__sub {
   color: #fff;
-  transition-delay: 400ms;
+  transition-delay: 300ms;
 }
 
 .main-nav {
@@ -244,6 +245,10 @@ table {
   font-style: italic;
   padding: 10px 0 20px 0;
   color: rgb(101, 95, 95);
+  cursor: pointer;
+}
+.site-section__title:hover {
+  color: rgb(0, 0, 0);
 }
 
 .project-item {
@@ -278,12 +283,12 @@ table {
 }
 .project-header__title {
   font-family: "Noticia Text";
-  font-size: 5rem;
-  transition: all 200ms ease-in-out;
+  font-size: 3rem;
+  transition: all 150ms ease-in-out;
 }
 .project-header__title:hover {
   color: rgb(80, 80, 80);
-  transition: all 200ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 .project-header__would-you {
   color: rgb(195, 176, 33);
@@ -343,11 +348,11 @@ table {
   font-size: 0.8rem;
   font-weight: 400;
   padding: 7px 15px 7px 15px;
-  transition: all 200ms ease-in-out;
+  transition: all 100ms ease-in-out;
   margin-right: 10px;
 }
 .project-infos__link:hover {
-  transition: all 200ms ease-in-out;
+  transition: all 100ms ease-in-out;
   background-color: #000;
   color: #fff;
 }
@@ -494,9 +499,16 @@ table {
   height: 25px;
 }
 
+.folder {
+  overflow: hidden;
+}
+
 @media screen and (max-width: 750px) {
   .main-nav__right {
     font-size: 0.8rem;
+  }
+  .anim__sub {
+    width: 70%;
   }
   .site-content {
     width: auto;

@@ -1,37 +1,89 @@
 [
   {
-    "id": "p001",
-    "blut": "4f 68 4d 79 46 6f 6f 64",
-    "screen": "/imgs/img-ohmyfood.webp",
-    "title": "OhMyFood",
-    "gitHubLink": "https://github.com/Dam-C/OC_Projet_04",
-    "liveSite": "https://dam-c.github.io/OC_Projet_04/",
-    "text": "L'un des premiers projets sur lesquels j'ai pu travailler. Une fois les bases HTML et CSS acquises, l'objectif était de travailler sur l'aspect responsive du site ainsi que les animations CSS.",
+    "folder": "cs50",
+    "id": "p007",
+    "blut": "53 61 6C 6C 65 20 4F 76 61 6C 65 0A",
+    "screen": "/imgs/img-so.webp",
+    "title": "> Salle Ovale BNF",
+    "gitHubLink": "https://github.com/Dam-C/SOBooksSearch",
+    "liveSite": "https://so-books-search.vercel.app/",
+    "text": "La salle ovale de la BNF est une salle de lecture disposant de 2 systèmes de classification. Cette double classification peut parfois rendre compliqué la loccalisation d'un ouvrage dans la salle. L'app Salle ovale permet de localiser un ouvrage dans la salle en affichant un plan mettant en surbrillancec les étagères où se trouve l'ouvrage recherché.",
+
     "technos": [
       { "name": "HTML5", "technoIcon": "/icons/icon-html.png" },
       { "name": "CSS3", "technoIcon": "/icons/icon-css.png" },
-      { "name": "SASS", "technoIcon": "/icons/icon-sass.png" }
+      { "name": "Javascript", "technoIcon": "/icons/icon-js.png" },
+      { "name": "React", "technoIcon": "/icons/icon-react.png" },
+      { "name": "Vite", "technoIcon": "/icons/icon-vite.png" },
+      { "name": "Python", "technoIcon": "/icons/icon-py.png" },
+      { "name": "Flask", "technoIcon": "/icons/icon-flask.png" },
+      { "name": "SQL", "technoIcon": "/icons/icon-sql.png" },
+      { "name": "React-Router", "technoIcon": "/icons/icon-reactrouter.png" }
     ]
   },
   {
-    "id": "p002",
-    "blut": "53 6f 70 68 69 65 20 42 6c 75 65 6c",
-    "screen": "/imgs/img-bluel.webp",
-    "title": "Sophie Bluel",
-    "gitHubLink": "https://github.com/Dam-C/OC_Projet_06",
+    "folder": "cs50",
+    "id": "p006",
+    "blut": "48 61 72 76 61 72 64 20 43 53 35 30 78 0A",
+    "screen": false,
+    "title": "> Harvard CS50x",
+    "gitHubLink": false,
     "liveSite": false,
-    "text": "Pour découvrir Javascript j'ai réalisé ce site en (Vanilla) Javascript. L'ensemble des fonctionnalités du site (même sommaires) a été réalisé sans librairie ou framework. L'utilisation de swagger a également nécessaire pour la réalisation de ce projet.",
+    "text": "Le dernier projet encadré de la formation CS50x nous demandait de concevoir un site d'achat/vente d'actions(fictives) en bourse pour un utilisateur enregistré. (Recupérations des fichiers en cours)",
+
     "technos": [
       { "name": "HTML5", "technoIcon": "/icons/icon-html.png" },
       { "name": "CSS3", "technoIcon": "/icons/icon-css.png" },
-      { "name": "Javascript", "technoIcon": "/icons/icon-js.png" }
+      { "name": "Javascript", "technoIcon": "/icons/icon-js.png" },
+      { "name": "Python", "technoIcon": "/icons/icon-py.png" },
+      { "name": "SQL", "technoIcon": "/icons/icon-sql.png" },
+      { "name": "Flask", "technoIcon": "/icons/icon-flask.png" }
     ]
   },
   {
+    "folder": "fcc",
+    "id": "p005",
+    "blut": "66 72 65 65 43 6F 64 65 43 61 6D 70",
+    "screen": false,
+    "title": "> freeCodeCamp",
+    "gitHubLink": false,
+    "liveSite": false,
+    "text": "Pour passer la certification \"Front-End Development Libraries\", 5 projets étaient à réaliser.Un générateur de citations pour lequel j'ai utilisé des répliques de films, un prévisualisateuer de Markdown utilisant la librairy Marked, une DrumMachine avec un clavier permettant de jouer des sons, une calculatrice pour des opérations simples.",
+
+    "technos": [
+      { "name": "HTML5", "technoIcon": "/icons/icon-html.png" },
+      { "name": "CSS3", "technoIcon": "/icons/icon-css.png" },
+      { "name": "Javascript", "technoIcon": "/icons/icon-js.png" },
+      { "name": "React", "technoIcon": "/icons/icon-react.png" },
+      { "name": "Vite", "technoIcon": "/icons/icon-vite.png" },
+      { "name": "Redux", "technoIcon": "/icons/icon-redux.png" }
+    ]
+  },
+  {
+    "folder": "openc",
+    "id": "p004",
+    "blut": "41 72 67 65 6e 74 20 42 61 6e 6b ",
+    "screen": "/imgs/img-argentbank.webp",
+    "title": "> Argent Bank",
+    "gitHubLink": "https://github.com/Dam-C/ArgentBank-website",
+    "liveSite": false,
+    "text": "Le dernier Projet de la formation. L'objectif ici est de réaliser des parties spécifiques du site à partir de maquettes et d'utiliser l'ensemble des technologies apprises lors de la formation (HTML, CSS,React, React Router) et d'y ajouter le state manager Redux. J'ai également réalisé des routes pour des call API via Swagger et la documentation associée.",
+    "technos": [
+      { "name": "HTML5", "technoIcon": "/icons/icon-html.png" },
+      { "name": "CSS3", "technoIcon": "/icons/icon-css.png" },
+      { "name": "Javascript", "technoIcon": "/icons/icon-js.png" },
+      { "name": "React", "technoIcon": "/icons/icon-react.png" },
+      { "name": "Vite", "technoIcon": "/icons/icon-vite.png" },
+      { "name": "React-Router", "technoIcon": "/icons/icon-reactrouter.png" },
+      { "name": "Redux", "technoIcon": "/icons/icon-redux.png" }
+    ]
+  },
+  {
+    "folder": "openc",
     "id": "p003",
     "blut": "6b 61 73 61",
     "screen": "/imgs/img-kasa.webp",
-    "title": "Kasa",
+    "title": "> Kasa",
     "gitHubLink": "https://github.com/Dam-C/OC_P08",
     "liveSite": "https://phenomenal-hotteok-0bb431.netlify.app/",
     "text": "Pour découvrir React et React Router, j'ai développé un site de location immobilière reprenant la même approche qu'Air BnB. L'objectif était ici de se familiraiser avec la logique React ainsi que le routing par React Router.",
@@ -45,21 +97,33 @@
     ]
   },
   {
-    "id": "p004",
-    "blut": "41 72 67 65 6e 74 20 42 61 6e 6b ",
-    "screen": "/imgs/img-argentbank.webp",
-    "title": "Argent Bank",
-    "gitHubLink": "https://github.com/Dam-C/ArgentBank-website",
+    "folder": "openc",
+    "id": "p002",
+    "blut": "53 6f 70 68 69 65 20 42 6c 75 65 6c",
+    "screen": "/imgs/img-bluel.webp",
+    "title": "> Sophie Bluel",
+    "gitHubLink": "https://github.com/Dam-C/OC_Projet_06",
     "liveSite": false,
-    "text": "Le dernier Projet de la formation. L'objectif ici est de réaliser des parties spécifiques du site à partir de maquettes et d'utiliser l'ensemble des technologies apprises lors de la formation (HTML, CSS,React, React Router) et d'y ajouter le state manager Redux. J'ai également réalisé des routes pour des call API via Swagger et la documentation associée.",
+    "text": "Pour découvrir Javascript j'ai réalisé ce site en (Vanilla) Javascript. L'ensemble des fonctionnalités du site (même sommaires) a été réalisé sans librairie ou framework. L'utilisation de swagger a également nécessaire pour la réalisation de ce projet.",
     "technos": [
       { "name": "HTML5", "technoIcon": "/icons/icon-html.png" },
       { "name": "CSS3", "technoIcon": "/icons/icon-css.png" },
-      { "name": "Javascript", "technoIcon": "/icons/icon-js.png" },
-      { "name": "React", "technoIcon": "/icons/icon-react.png" },
-      { "name": "Vite", "technoIcon": "/icons/icon-vite.png" },
-      { "name": "React-Router", "technoIcon": "/icons/icon-reactrouter.png" },
-      { "name": "Redux", "technoIcon": "/icons/icon-redux.png" }
+      { "name": "Javascript", "technoIcon": "/icons/icon-js.png" }
+    ]
+  },
+  {
+    "folder": "openc",
+    "id": "p001",
+    "blut": "4f 68 4d 79 46 6f 6f 64",
+    "screen": "/imgs/img-ohmyfood.webp",
+    "title": "> OhMyFood",
+    "gitHubLink": "https://github.com/Dam-C/OC_Projet_04",
+    "liveSite": "https://dam-c.github.io/OC_Projet_04/",
+    "text": "L'un des premiers projets sur lesquels j'ai pu travailler. Une fois les bases HTML et CSS acquises, l'objectif était de travailler sur l'aspect responsive du site ainsi que les animations CSS.",
+    "technos": [
+      { "name": "HTML5", "technoIcon": "/icons/icon-html.png" },
+      { "name": "CSS3", "technoIcon": "/icons/icon-css.png" },
+      { "name": "SASS", "technoIcon": "/icons/icon-sass.png" }
     ]
   }
 ]

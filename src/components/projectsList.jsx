@@ -18,13 +18,15 @@ const ProjectsList = () => {
       className="hidden site-section site-section__projects"
     >
       <h3 className="site-section__title projects-list__title">\ PROJETS</h3>
-      {projects.map((project) => {
-        return (
-          <div key={project.id} className="project">
-            <ProjectItem project={project} />
-          </div>
-        );
-      })}
+      <div className="folder">
+        {content.map((project) => {
+          return (
+            <div key={project.id} className="project">
+              <ProjectItem project={project} />
+            </div>
+          );
+        })}
+      </div>
     </section>
   );
 };

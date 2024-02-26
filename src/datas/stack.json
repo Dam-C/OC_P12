@@ -1,0 +1,66 @@
+[
+  {
+    "techName": "HTML5",
+    "src": "./icons/icon-html.png"
+  },
+  {
+    "techName": "CSS3",
+    "src": "./icons/icon-css.png"
+  },
+  {
+    "techName": "Javascript",
+    "src": "./icons/icon-js.png"
+  },
+  {
+    "techName": "React",
+    "src": "./icons/icon-react.png"
+  },
+  {
+    "techName": "Vite",
+    "src": "./icons/icon-vite.png"
+  },
+  {
+    "techName": "React-router",
+    "src": "./icons/icon-reactrouter.png"
+  },
+  {
+    "techName": "Redux",
+    "src": "./icons/icon-redux.png"
+  },
+  {
+    "techName": "C",
+    "src": "./icons/icon-c.png"
+  },
+  {
+    "techName": "Python",
+    "src": "./icons/icon-py.png"
+  },
+  {
+    "techName": "FLask",
+    "src": "./icons/icon-flask.png"
+  },
+  {
+    "techName": "SQL",
+    "src": "./icons/icon-sql.png"
+  },
+  {
+    "techName": "Notion",
+    "src": "./icons/icon-notion.png"
+  },
+  {
+    "techName": "GIT",
+    "src": "./icons/icon-git.png"
+  },
+  {
+    "techName": "Github",
+    "src": "./icons/icon-github.png"
+  },
+  {
+    "techName": "Photoshop",
+    "src": "./icons/icon-ps.png"
+  },
+  {
+    "techName": "Illutsrator",
+    "src": "./icons/icon-illustrator.png"
+  }
+]

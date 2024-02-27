@@ -1,7 +1,6 @@
 export { default as Anim } from "./anim";
 export { default as MainNav } from "./mainNav";
 export { default as SiteContent } from "./siteContent";
-export { default as Folder } from "./folder";
 
 export { default as ProjectsList } from "./projectsList";
 export { default as ProjectItem } from "./projectItem";

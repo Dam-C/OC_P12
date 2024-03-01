@@ -44,10 +44,10 @@
     "folder": "fcc",
     "id": "p005",
     "blut": "66 72 65 65 43 6F 64 65 43 61 6D 70",
-    "screen": false,
+    "screen": "/imgs/img-fccpfel.webp",
     "title": "> freeCodeCamp",
-    "gitHubLink": false,
-    "liveSite": false,
+    "gitHubLink": "https://github.com/Dam-C/fcc_projects",
+    "liveSite": "https://unrivaled-douhua-e11f70.netlify.app/",
     "text": "Pour passer la certification \"Front-End Development Libraries\", 5 projets étaient à réaliser.Un générateur de citations pour lequel j'ai utilisé des répliques de films, un prévisualisateuer de Markdown utilisant la librairy Marked, une DrumMachine avec un clavier permettant de jouer des sons, une calculatrice pour des opérations simples.",
 
     "technos": [

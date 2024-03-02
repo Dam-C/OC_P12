@@ -1,7 +1,7 @@
 [
   {
     "folder": "cs50",
-    "id": "p007",
+    "id": "p006",
     "blut": "53 61 6C 6C 65 20 4F 76 61 6C 65 0A",
     "screen": "/imgs/img-so.webp",
     "title": "> Salle Ovale BNF",
@@ -19,25 +19,6 @@
       { "name": "Flask", "technoIcon": "/icons/icon-flask.png" },
       { "name": "SQL", "technoIcon": "/icons/icon-sql.png" },
       { "name": "React-Router", "technoIcon": "/icons/icon-reactrouter.png" }
-    ]
-  },
-  {
-    "folder": "cs50",
-    "id": "p006",
-    "blut": "48 61 72 76 61 72 64 20 43 53 35 30 78 0A",
-    "screen": false,
-    "title": "> Harvard CS50x",
-    "gitHubLink": false,
-    "liveSite": false,
-    "text": "Le dernier projet encadré de la formation CS50x nous demandait de concevoir un site d'achat/vente d'actions(fictives) en bourse pour un utilisateur enregistré. (Recupérations des fichiers en cours)",
-
-    "technos": [
-      { "name": "HTML5", "technoIcon": "/icons/icon-html.png" },
-      { "name": "CSS3", "technoIcon": "/icons/icon-css.png" },
-      { "name": "Javascript", "technoIcon": "/icons/icon-js.png" },
-      { "name": "Python", "technoIcon": "/icons/icon-py.png" },
-      { "name": "SQL", "technoIcon": "/icons/icon-sql.png" },
-      { "name": "Flask", "technoIcon": "/icons/icon-flask.png" }
     ]
   },
   {
@@ -64,6 +45,7 @@
     "id": "p004",
     "blut": "41 72 67 65 6e 74 20 42 61 6e 6b ",
     "screen": "/imgs/img-argentbank.webp",
+
     "title": "> Argent Bank",
     "gitHubLink": "https://github.com/Dam-C/ArgentBank-website",
     "liveSite": false,
